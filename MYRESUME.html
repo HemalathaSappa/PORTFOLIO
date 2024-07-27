@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="stying.css">
+</head>
+<body>
+    <header class="headings">
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#Certificates">Certificates</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+        <i class="fas fa-xmark" onclick="closemenu()"></i>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </header>
+    <section id="Home" class="Home">
+        <div class="Home-content">
+            <h3>Hello!,</h3>
+            <h1>This is <span>Hemalatha</span> Sappa</h1>
+        <a href="#" class="btn-box">Download</a>
+        </div>
+    </section>
+    <section  id="about" class="About">
+        <div class="About-img">
+        <img src="img.jpg">
+        </div>
+        <div class="About-text">
+            <h2>About<span>Me</span></h2>
+            <p>I'm Hemalatha Sappa persuing 3rd year in the stream of Computer Science and Data Science</p>
+        </div>
+    </section>
+    <section class="tab-contents"id="Education">
+        <div class="Education">
+            <h2>My Skills</h2>
+            <table>
+                <thead><h2>Graduation</h2></thead>
+                <td>KIET GROUP OF ENGINEERING AND TECHNOLOGY</td>
+                <br>
+                <p>2022-2026</p>
+            </table>
+            <table>
+                <thead><h2>Intermediate</h2></thead>
+                <td>KSN JUNIOR COLLEGE</td>
+                <br>
+                <p>2020-2022</p>
+            </table>
+            <table><h2>Schooling</h2>
+            <td>B.F.M.HIGH SCHOOL</td>
+            <br>
+            <tr>2015-2020</tr>
+            </table>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <div class="skill-box">
+                <span class="title">HTML</span>
+                <div class="skill-bar">
+                    <span class="skill-per html">
+                        <span class="tooltip">90%</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <span class="title">CSS</span>
+                <div class="skill-bar">
+                    <span class="skill-per css">
+                        <span class="tooltip">80%</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <span class="title">PYTHON</span>
+                <div class="skill-bar">
+                    <span class="skill-per python">
+                        <span class="tooltip">80%</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <span class="title">C</span>
+                <div class="skill-bar">
+                    <span class="skill-per c">
+                        <span class="tooltip">75%</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section  id="Certificates" class="Certificates">
+        <section class="certifications" id="certifications">
+            <h2>Certifications</h2>
+            <div class="certification-cards">
+                <!-- Repeat this card structure for each certification -->
+                <div class="card">
+                    <img src="images/html_certificate.jpg" alt="Certification">
+                    <p>UDEMY HTML5</p>
+                </div>
+                <div class="card">
+                    <img src="images/edyst_certificate.jpg" alt="Certification">
+                    <p>EDYST PYTHON</p>
+                </div>
+                <div class="card">
+                    <img src="images/Datascience_IBM.jpeg" alt="Certification">
+                    <p>IBM DATA SCIENCE</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+</body>
+</html>
